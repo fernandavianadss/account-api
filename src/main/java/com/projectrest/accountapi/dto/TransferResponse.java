@@ -14,12 +14,6 @@ public class TransferResponse {
 	private AccountPost origin;
 	private AccountPost destination;
 	
-	/*
-	public TransferResponse(AccountResponse accountOrigin, AccountResponse accountDestination) {
-		origin = accountOrigin;
-		destination = accountDestination;
-	}
-*/
 	public static TransferResponse toDTO(AccountPost accountOrigin, AccountPost accountDestination) {
 		return new TransferResponse(accountOrigin, accountDestination);
 	}
