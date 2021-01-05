@@ -31,7 +31,7 @@ public class AccountController {
 		return new ResponseEntity<String>("Ok", HttpStatus.OK);
 	}
 	
-	@GetMapping(path = "balance/account_id/{id}")
+	@GetMapping(path = "/balance/account_id/{id}")
 	public ResponseEntity<BalanceResponse> findByAccount(@PathVariable String id){
 		Account entity = accountService.findByAccount(id);
 		return new ResponseEntity<BalanceResponse>(new BalanceResponse(entity), HttpStatus.OK);

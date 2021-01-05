@@ -54,7 +54,6 @@ public class AccountService {
 		accountDeposit.setDestination(account.getDestination());
 		accountDeposit.deposit(account.getAmount());
 		
-		//accounts.remove(account);
 		accounts.add(index, accountDeposit);
 		
 		return AccountResponse.toDTO(new AccountPost(accountDeposit.getDestination(), accountDeposit.getAmount()));
@@ -69,9 +68,6 @@ public class AccountService {
 		accountWhithdraw.setType(account.getType());
 		accountWhithdraw.setDestination(account.getOrigin());
 		accountWhithdraw.withdraw(account.getAmount());
-		
-		
-		//accounts.remove(account);
 		
 		accounts.add(index, accountWhithdraw);
 
