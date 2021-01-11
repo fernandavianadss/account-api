@@ -7,7 +7,7 @@ Tópicos implementados:
 
 * Setup inicial de projeto com o Spring Boot Initialzr 
 * Criação de modelo de dados para o mapeamento de entidades
-* Desenvolvimento de operações de gerenciamento de contas (criação, consulta, deposito e transferência, saque e remoção de possíveis contas existentes).
+* Desenvolvimento de operações de gerenciamento de contas (criação, consulta, depósito, transferência, saque e remoção de possíveis contas existentes).
 
 Para executar o projeto no terminal, digite o seguinte comando:
 
