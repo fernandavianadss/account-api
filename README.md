@@ -1,7 +1,7 @@
 # account-api
 <h2>Projeto prático desenvolvendo um sistema de gerenciamento de contas em API REST com Spring Boot</h2>
 
-Objetivo do projeto é desenvolvimento de um pequeno sistema para o gerenciamento de contas através de uma API REST, criada com o Spring Boot.
+Objetivo do projeto é o desenvolvimento de um pequeno sistema para o gerenciamento de contas através de uma API REST, criada com o Spring Boot.
 
 Tópicos implementados:
 
